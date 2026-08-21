@@ -1,0 +1,25 @@
+{
+  "name": "turbokitten.github.io",
+  "version": "1.0.0",
+  "description": "Repositorio de portafolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TurboKitten/TurboKitten.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/TurboKitten/TurboKitten.github.io/issues"
+  },
+  "homepage": "https://github.com/TurboKitten/TurboKitten.github.io#readme",
+  "dependencies": {
+    "@tailwindcss/cli": "^4.3.3",
+    "tailwindcss": "^4.3.3"
+  }
+}
