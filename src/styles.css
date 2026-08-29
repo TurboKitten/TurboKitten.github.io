@@ -1,21 +1,17 @@
-h1 {
-    text-align: center;
-}
-
 h2 {
-    color: white;
+    color: black;
 }
 
 h3 {
-    color: white;
+    color: black;
 }
 
 h4 {
-    color: white;
+    color: black;
 }
 
 p {
-    color: white;
+    color: black;
 }
 
 a{
@@ -24,4 +20,15 @@ a{
 
 footer{
     color: lightblue
+}
+
+.profile-img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.certificate-img {
+    width: 110px;
+    height: 110px;
 }
