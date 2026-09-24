@@ -4,6 +4,8 @@ import reactLogo from './assets/react.svg'
 import viteLogo from './assets/vite.svg'
 import './App.css'
 import Footer from './core/Footer'
+import Main from './core/Main'
+import Header from './core/Header'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -117,6 +119,8 @@ function App() {
 
       <div className="ticks"></div>
       <section id="spacer"></section>
+      <Header />
+      <Main />
       <Footer />
     </>
   )
