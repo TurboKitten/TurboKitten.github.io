@@ -2,9 +2,9 @@ import { vi } from 'vitest'
 
 // Datos falsos (mocks) para no depender de internet en las pruebas.
 export const repos = [
-  { id: 1, name: 'fs2_tareafonda', description: 'App React', language: 'JavaScript', stargazers_count: 5, updated_at: '2026-09-01T00:00:00Z', fork: false, html_url: 'https://github.com/donkiwicl/fs2_tareafonda' },
-  { id: 2, name: 'poo_tareafonda', description: null, language: 'Java', stargazers_count: 3, updated_at: '2026-08-01T00:00:00Z', fork: false, html_url: 'https://github.com/donkiwicl/poo_tareafonda' },
-  { id: 3, name: 'repo-forkeado', description: 'Un fork', language: 'Python', stargazers_count: 99, updated_at: '2026-07-01T00:00:00Z', fork: true, html_url: 'https://github.com/donkiwicl/repo-forkeado' },
+  { id: 1, name: 'notariaX', description: 'App React', language: 'JavaScript', stargazers_count: 5, updated_at: '2026-09-01T00:00:00Z', fork: false, html_url: 'https://github.com/TurboKitten/notariaX' },
+  { id: 2, name: 'Cat-alog', description: null, language: 'Java', stargazers_count: 3, updated_at: '2026-08-01T00:00:00Z', fork: false, html_url: 'https://github.com/TurboKitten/Cat-alog' },
+  { id: 3, name: 'FerreteriaLosMaestros', description: 'Un fork', language: 'HTML', stargazers_count: 99, updated_at: '2026-07-01T00:00:00Z', fork: true, html_url: 'https://github.com/donkiwicl/repo-forkeado' },
 ]
 
 /** Reemplaza fetch global por uno que responde según la URL pedida. */
