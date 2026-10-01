@@ -6,7 +6,7 @@ import { defineConfig } from 'vite'
 export default defineConfig({
   // base: './' genera rutas relativas en el build, así el sitio funciona en
   // https://<usuario>.github.io/<nombre-del-repo>/ sin importar cómo se llame el repo.
-  base: './',
+  base: '/',
   plugins: [
     react(),
     // React Compiler: memoriza componentes automáticamente (sin useMemo/useCallback manuales).
