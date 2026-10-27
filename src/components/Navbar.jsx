@@ -10,7 +10,7 @@ export default function Navbar() {
     <header className="navbar">
       <nav className="container navbar__inner" aria-label="Principal">
         <Link to="/" className="brand">
-          <span className="brand__kiwi" aria-hidden="true" />
+          <span className="brand__mark" aria-hidden="true" />
           TurboKitten / Diego Garrido
         </Link>
         <ul className="navbar__links">
